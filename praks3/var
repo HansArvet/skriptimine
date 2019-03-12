@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+find /var -name "*.log*" -type f 2>/dev/null -exec wc -l {} + | sort -rn #
+# skripti l6pp
