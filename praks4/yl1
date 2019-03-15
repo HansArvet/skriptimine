@@ -2,8 +2,8 @@
 #
 # kysib kasutaja k2est tema nime ja tervitab teda
 # 
-echo -n "Tere! Kuidas on teie nimi? " # kysib nime
-read yourname # loeb nime
-echo "Tere tulemast, $yourname" # tervitab kylastajat
+echo -n "Tere! sisestage oma ees- ja perenimi: " # kysib nime
+read eesnimi perenimi # loeb nime
+echo "Tere tulemast $eesnimi $perenimi" # tervitab kylastajat
 #
 # skriptimise l6pp
