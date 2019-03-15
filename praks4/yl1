@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# kysib kasutaja k2est tema nime ja tervitab teda
+# 
+echo -n "Tere! Kuidas on teie nimi? " # kysib nime
+read yourname # loeb nime
+echo "Tere tulemast, $yourname" # tervitab kylastajat
+#
+# skriptimise l6pp
