@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# N2itab kuup2eeva ja kalendrit
+#
+echo -n "Today is " # kirjutab
+echo `date +"%A, %B %d, %Y"` # N2itab p2eva
+echo -n "Time is "
+echo `date +"%T"` # n2itab kella
+echo " "
+echo -n "Calendar of"
+cal # n2itab kalendrit
+#
+# skripti  l6pp
